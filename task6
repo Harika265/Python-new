@@ -1,0 +1,20 @@
+s="hello universe"
+print(len(s))
+slice=s[4:8]
+print(slice)
+stride=s[4:2:-3]
+print(stride)
+firstname=input("enter first name")
+middlename=input("enter second name")
+lastname=input("enter last name")
+fullname=firstname+""+middlename+""+lastname+""
+print(fullname)
+start_index=fullname.find(middlename)
+print(start_index)
+ending_index=start_index+len(middlename)
+extracted_name=fullname[start_index:ending_index]
+print(extracted_name)
+if extracted_name==middlename:
+  print("extracted successfully")
+else:
+  print("not success")
