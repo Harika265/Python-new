@@ -1,0 +1,4 @@
+print("Hello, World!")
+a=45
+b=45.54
+print(f'value a ia {a}')
