@@ -1,0 +1,12 @@
+# Task 2
+
+name = input("Enter name: ")
+zone = input("Enter zone: ")
+empid = input("Enter empid: ")
+print("Data type of empid before conversion:", type(empid))
+empid = int(empid)
+print("Data type of empid after conversion:", type(empid))
+t = (name, zone, empid)
+print("Empid from tuple:", t[2])
+if t[2] > 100:
+    print("Emp id is greater than 100")
