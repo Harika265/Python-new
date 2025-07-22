@@ -1,0 +1,18 @@
+l1=["a","b","c","d","e"]
+print(l1)
+l2=l1.copy()
+print(l2)
+l3='hello'
+print(l2.extend(l3))
+print(l2)
+list_of_tuples = [("name","harika"), ("zone", "nellore"), ("empid", 3)]
+my_dict = dict(list_of_tuples)
+print(my_dict)
+for key, value in my_dict.items():
+    print(key, value)
+for key in my_dict.keys():
+    print(key)
+for value in my_dict.items():
+    print(value)
+l1.clear()
+print(l1)
