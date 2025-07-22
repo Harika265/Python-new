@@ -1,0 +1,7 @@
+name="Harika"
+zone="North"
+empid=10234
+print(name)
+print(zone)
+print(empid)
+print(f' values of all are {name} ,{zone} ,{empid}' )
