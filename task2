@@ -1,7 +1,8 @@
 name="Harika"
-zone="North"
+city="nellore"
 empid=10234
 print(name)
-print(zone)
+print(city)
 print(empid)
-print(f' values of all are {name} ,{zone} ,{empid}' )
+print(name,city,empid)
+print(f' my name is {name} ,and i am from {city} ,my employee id is{empid}' )
