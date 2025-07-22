@@ -1,0 +1,7 @@
+n = int(input("Enter a number: "))
+if n > 5:
+    print("Number is less than 5. Exiting the program.")
+    exit()
+else:
+    for i in range(n):
+        print(i)
