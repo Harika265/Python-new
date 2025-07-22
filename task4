@@ -1,0 +1,20 @@
+# Task 4
+
+# Take inputs from keyboard
+name = input("Enter name: ")
+zone = input("Enter zone: ")
+empid = int(input("Enter Empid: "))  # Convert to integer
+
+# Create dictionary using inputs
+empdetails = {
+    "name": name,
+    "zone": zone,
+    "Empid": empid,
+    ("name", "zone"): [name, zone]
+}
+
+# i) Print dictionary
+print("\nEmployee Details Dictionary:")
+print(empdetails)
+
+# ii) Loop through dictio
