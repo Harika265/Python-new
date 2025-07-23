@@ -1,0 +1,13 @@
+def my_details(*args, **kwargs):
+    # Print positional arguments
+    print("Positional Arguments (Organization Name, Zone):")
+    for arg in args:
+        print(arg)
+
+    # Print keyword arguments
+    print("\nKeyword Arguments (Name, Age, Dept, Employee Id):")
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+# Example usage
+my_details("OpenAI", "South Zone", Name="Harika", Age=23, Dept="AI", EmployeeId="EMP1234")
