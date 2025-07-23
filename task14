@@ -1,0 +1,15 @@
+import copy
+
+l1 = [1, 2, [3, 4]]
+l2 = copy.copy(l1)  # or l1.copy()
+
+print("Before modification:")
+print("l1 =", l1)
+print("l2 =", l2)
+
+# Modify inner list
+l1[2][0] = 99
+
+print("\nAfter modifying l1[2][0] = 99:")
+print("l1 =", l1)
+print("l2 =", l2)
