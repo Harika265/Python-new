@@ -1,0 +1,16 @@
+# Step 5: Initialize l1 and assign to l2
+l1 = [1, 2, [3, 4]]
+l2 = l1
+
+# Step 6: Print both lists
+print("Before modification:")
+print("l1 =", l1)
+print("l2 =", l2)
+
+# Step 7: Modify the third item in l1
+l1[2] = [9, 4]
+
+# Step 8: Print both lists again
+print("After modification:")
+print("l1 =", l1)
+print("l2 =", l2)
