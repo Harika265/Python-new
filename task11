@@ -1,0 +1,6 @@
+lambda_sum= lambda i,j: i+j 
+print("Sum of numbers: ",lambda_sum(7,9))
+ 
+l1=['Hello', 'harika','hi']
+l1.sort(key=lambda i: len(set(i.lower())),reverse=True)
+print("sorted list", l1)
