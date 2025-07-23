@@ -1,0 +1,5 @@
+def greet_user(username,count,greet_message="hello"):
+  for _ in range(count):
+    print(f"{greet_message},{username}!")
+greet_user("harika",3)
+greet_user("harika",3,"welcome")
